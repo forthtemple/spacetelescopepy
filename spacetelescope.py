@@ -293,7 +293,7 @@ def lookup():
        msg.set("Please enter an object to lookup")
 # Create Object
 root = Tk() 
-root.title("Telescope")
+root.title("Space Telescope")
 
 # Initialize tkinter window with dimensions 100x100             
 root.geometry(str(pixels+200)+'x'+str(pixels+200)) #'600x500')     
@@ -375,7 +375,6 @@ checkbutton.pack(side = 'left')
 largeimageconstellation = Image.open('starmap_2020_4kconst.png') #skv7684881361472.fits')
 largeimagenoconstellation = Image.open('starmap_2020_4k.png') #skv7684881361472.fits')
 largeimage=largeimageconstellation
-#img = Image.open('deleteme.png') #starmap_2020_4k.exr')#png') #skv7684881361472.fits')
 
 panel = Label(myContainer1) #, image = img)
 panel.pack(side = "bottom", fill = "both") #, expand = "yes")
